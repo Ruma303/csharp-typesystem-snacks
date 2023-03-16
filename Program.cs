@@ -1,46 +1,54 @@
 ﻿//Seleziona Snack
-Console.WriteLine("Seleziona lo Snack da visualizzare da 1 a 12 o scrivi 'exit'");
-string snack = Console.ReadLine();
-switch (snack)
+bool exit = false;
+while(!exit)
 {
-    case "1":
-        Snack1();
-        break;
-    case "2":
-        Snack2();
-        break;
-    case "3":
-        Snack3();
-        break;
-    case "4":
-        Snack4();
-        break;
-    case "5":
-        Snack5();
-        break;
-    case "6":
-        Snack6();
-        break;
-    case "7":
-        Snack7();
-        break;
-    case "8":
-        Snack8();
-        break;
-    case "9":
-        Snack9();
-        break;
-    case "10":
-        Snack10();
-        break;
-    case "11":
-        Snack11();
-        break;
-    case "12":
-        Snack12();
-        break;
-    case "exit":
-        break;
+    Console.WriteLine("Seleziona lo Snack da visualizzare da 1 a 12 o scrivi 'exit'");
+    string snack = Console.ReadLine();
+    switch (snack)
+    {
+        case "1":
+            Snack1();
+            break;
+        case "2":
+            Snack2();
+            break;
+        case "3":
+            Snack3();
+            break;
+        case "4":
+            Snack4();
+            break;
+        case "5":
+            Snack5();
+            break;
+        case "6":
+            Snack6();
+            break;
+        case "7":
+            Snack7();
+            break;
+        case "8":
+            Snack8();
+            break;
+        case "9":
+            Snack9();
+            break;
+        case "10":
+            Snack10();
+            break;
+        case "11":
+            Snack11();
+            break;
+        case "12":
+            Snack12();
+            break;
+        case "exit":
+            exit = true;
+            break;
+        default:
+            Console.WriteLine("Digita un numero corretto da 1 a 12 o scrivi 'exit' per uscire");
+            break;
+    }
 }
 
 void Snack1()
