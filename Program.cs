@@ -42,3 +42,11 @@ for(int i = 0; i < 10; i++)
 }
 Console.WriteLine($"La somma finale é {sum}");
 */
+
+//Snack 4
+/*
+int sum = 0;
+for(int i = 2; i < 11; i++) sum += i;
+Console.WriteLine($"La somma finale é {sum}");
+Console.WriteLine($"La media é {sum / 2}");
+*/
