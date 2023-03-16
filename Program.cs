@@ -50,3 +50,10 @@ for(int i = 2; i < 11; i++) sum += i;
 Console.WriteLine($"La somma finale é {sum}");
 Console.WriteLine($"La media é {sum / 2}");
 */
+
+//Snack 5
+/*
+Console.WriteLine("Scrivi un numero: ");
+int num = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"{(num % 2 == 0 ? $"Numero pari: {num}" : $"Numero successivo: {num+1}")}");
+*/
