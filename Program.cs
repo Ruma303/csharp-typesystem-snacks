@@ -132,5 +132,18 @@ for (int i = 0; i < N; i++)
 */
 
 //Snack 11
-//Console.WriteLine("Inserisci un numero: ");
-//string str1 = Console.ReadLine() ?? "";
+/*
+Console.WriteLine("Inserisci la prima parola: ");
+string word1 = Console.ReadLine() ?? "";
+Console.WriteLine("Inserisci la seconda parola: ");
+string word2 = Console.ReadLine() ?? "";
+
+void VerificaLunghezza(string word1, string word2)
+{
+    if (word1.Length == word2.Length) Console.WriteLine($"{word1}, {word2}");
+    else if (word1.Length > word2.Length) Console.WriteLine($"La prima parola é piú lunga: {word1}");
+    else  Console.WriteLine($"La seconda parola é piú lunga: {word2}");
+}
+
+VerificaLunghezza(word1, word2);
+*/
