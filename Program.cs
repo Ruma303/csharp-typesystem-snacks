@@ -57,3 +57,23 @@ Console.WriteLine("Scrivi un numero: ");
 int num = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"{(num % 2 == 0 ? $"Numero pari: {num}" : $"Numero successivo: {num+1}")}");
 */
+
+//Snack 6
+/*
+string[] invitati = new string[] {"Tizio", "Caio", "Sempronio", "Mevio"};
+Console.WriteLine("Inserire il nome prego: ");
+//Console.WriteLine("Suggerimento: Tizio, Caio, Sempronio, Mevio");
+string nome  = Console.ReadLine() ?? "";
+Console.WriteLine($"{(invitati.Contains(nome) ? "Prego, si accomdi." 
+*/
+
+//Snack 7
+/*
+int[] numbers = new int[6];
+foreach (int n in numbers)
+{
+    Console.WriteLine("Scrivi un numero: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    if(num % 2 != 0) numbers[n] = num;
+}
+*/
