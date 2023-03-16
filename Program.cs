@@ -88,3 +88,27 @@ foreach (int number in numbers)
 }
 Console.WriteLine("La somma di tutti i numeri pari nell'array é: " + sum);
 */
+
+//Snack 9
+/*
+int[] array = new int[100];
+int i = 0;
+int sum = 0;
+while (sum < 50)
+{
+    Console.WriteLine("Inserisci un numero: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine($"Hai inserito il numero: {num}");
+    array[i] = num;
+    i++;
+    sum += num;
+}
+
+Console.WriteLine($"Hai raggiunto una somma {sum}");
+Console.WriteLine("Ecco gli elementi dell'array: ");
+
+for (int j = 0; j < i; j++)
+{
+    Console.Write($"{array[j]} ");
+}
+*/
