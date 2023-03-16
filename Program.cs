@@ -112,3 +112,20 @@ for (int j = 0; j < i; j++)
     Console.Write($"{array[j]} ");
 }
 */
+
+//Snack 10
+/*
+Console.WriteLine("Inserisci un numero: ");
+int N = Convert.ToInt32(Console.ReadLine());
+var random = new Random();
+
+for (int i = 0; i < N; i++)
+{
+    var nums = new int[10];
+    for (int j = 0; j < 10; j++)
+        nums[j] = random.Next(1, 100);
+
+    foreach (var num in nums)
+        Console.Write($"{num}; ");
+}
+*/
