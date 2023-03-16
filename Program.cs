@@ -147,3 +147,14 @@ void VerificaLunghezza(string word1, string word2)
 
 VerificaLunghezza(word1, word2);
 */
+
+//Snack 12
+/*
+Console.WriteLine("Inserisci un numero: ");
+int num = Convert.ToInt32(Console.ReadLine());
+void IsEvenOrOdd(int num)
+{
+    Console.WriteLine($"Il numero {num} é {(num % 2 == 0 ? "pari" : "dispari" )}");
+}
+IsEvenOrOdd(num);
+*/
