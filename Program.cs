@@ -61,10 +61,11 @@ Console.WriteLine($"{(num % 2 == 0 ? $"Numero pari: {num}" : $"Numero successivo
 //Snack 6
 /*
 string[] invitati = new string[] {"Tizio", "Caio", "Sempronio", "Mevio"};
+string[] clonedArray = invitati.Select(s => s.ToLower()).ToArray();
 Console.WriteLine("Inserire il nome prego: ");
-//Console.WriteLine("Suggerimento: Tizio, Caio, Sempronio, Mevio");
-string nome  = Console.ReadLine() ?? "";
-Console.WriteLine($"{(invitati.Contains(nome) ? "Prego, si accomdi." 
+string nome  = Console.ReadLine().ToLower() ?? "";
+Console.WriteLine($"{(clonedArray.Contains(nome) ? "Prego, si accomdi."
+    : "Lei non é tra gli invitati!")}");
 */
 
 //Snack 7
@@ -129,3 +130,7 @@ for (int i = 0; i < N; i++)
         Console.Write($"{num}; ");
 }
 */
+
+//Snack 11
+//Console.WriteLine("Inserisci un numero: ");
+//string str1 = Console.ReadLine() ?? "";
