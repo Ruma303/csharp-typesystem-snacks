@@ -77,3 +77,14 @@ foreach (int n in numbers)
     if(num % 2 != 0) numbers[n] = num;
 }
 */
+
+//Snack 8
+/*
+int[] numbers = new int[10] {1,2,3,4,5,6,7,8,9,10};
+int sum = 0;
+foreach (int number in numbers)
+{
+    if (number % 2 == 0) sum += number;
+}
+Console.WriteLine("La somma di tutti i numeri pari nell'array é: " + sum);
+*/
